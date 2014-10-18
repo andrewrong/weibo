@@ -15,3 +15,8 @@
 	    4.1 注册: register(name,email,password)
 	    4.2 登录: login(name or email,password)
 	    4.3 生成userId: generateId()
+
+### 3. 关注与被关注功能
+
+    1. 关注与被关注，主要是要维护两个集合，一个集合是用来保存当前用户的所有关注的id，另外一个是用来维护所有关注当前用户的粉丝
+    2. 动作:关注;一个用户A关注另外一个用户B的时候，给A的关注集合中加入B,在B的粉丝表中加入A
